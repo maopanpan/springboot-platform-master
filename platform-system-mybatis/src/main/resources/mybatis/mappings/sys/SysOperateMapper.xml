@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.myself.platform.dao.sys.SysOperateMapper" >
+  <resultMap id="BaseResultMap" type="cn.myself.platform.model.sys.SysOperate" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="operate_id" property="operateId" jdbcType="INTEGER" />
+    <result column="menu_id" property="menuId" jdbcType="INTEGER" />
+    <result column="operate_name" property="operateName" jdbcType="VARCHAR" />
+    <result column="operate_uri" property="operateUri" jdbcType="VARCHAR" />
+    <result column="operate_status" property="operateStatus" jdbcType="TINYINT" />
+    <result column="sequence" property="sequence" jdbcType="INTEGER" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="modify_person" property="modifyPerson" jdbcType="INTEGER" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="update_person" property="updatePerson" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

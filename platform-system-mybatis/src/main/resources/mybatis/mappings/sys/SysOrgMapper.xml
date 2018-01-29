@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.myself.platform.dao.sys.SysOrgMapper" >
+  <resultMap id="BaseResultMap" type="cn.myself.platform.model.sys.SysOrg" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="org_id" property="orgId" jdbcType="INTEGER" />
+    <result column="parent_org_id" property="parentOrgId" jdbcType="INTEGER" />
+    <result column="org_name" property="orgName" jdbcType="VARCHAR" />
+    <result column="org_remark" property="orgRemark" jdbcType="VARCHAR" />
+    <result column="org_status" property="orgStatus" jdbcType="TINYINT" />
+    <result column="del_flag" property="delFlag" jdbcType="TINYINT" />
+    <result column="sequence" property="sequence" jdbcType="INTEGER" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="modify_person" property="modifyPerson" jdbcType="INTEGER" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="update_person" property="updatePerson" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

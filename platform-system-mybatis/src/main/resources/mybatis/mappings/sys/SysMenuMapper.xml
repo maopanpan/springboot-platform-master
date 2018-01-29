@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.myself.platform.dao.sys.SysMenuMapper" >
+  <resultMap id="BaseResultMap" type="cn.myself.platform.model.sys.SysMenu" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="menu_id" property="menuId" jdbcType="INTEGER" />
+    <result column="menu_code" property="menuCode" jdbcType="VARCHAR" />
+    <result column="parent_menu_id" property="parentMenuId" jdbcType="INTEGER" />
+    <result column="menu_name" property="menuName" jdbcType="VARCHAR" />
+    <result column="menu_remark" property="menuRemark" jdbcType="VARCHAR" />
+    <result column="menu_status" property="menuStatus" jdbcType="TINYINT" />
+    <result column="menu_uri" property="menuUri" jdbcType="VARCHAR" />
+    <result column="icon_css" property="iconCss" jdbcType="VARCHAR" />
+    <result column="sequence" property="sequence" jdbcType="INTEGER" />
+    <result column="modify_date" property="modifyDate" jdbcType="TIMESTAMP" />
+    <result column="modify_person" property="modifyPerson" jdbcType="INTEGER" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="update_person" property="updatePerson" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>
